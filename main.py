@@ -35,7 +35,7 @@ messages = [
 ]
 
 # ====== Optional: File Messages ======
-file_name = input("MASSAGE FILE  (default massage.txt ): ").strip()
+file_name = input("MASSAGE FILE  (default skip): ").strip()
 if file_name:
     try:
         with open(file_name, "r", encoding="utf-8") as f:
